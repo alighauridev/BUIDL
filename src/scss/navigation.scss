@@ -191,6 +191,9 @@ header {
             transition: all 0.2s ease, visibility 0s;
             background: rgb(0, 97, 255);
             border: 2px solid rgb(0, 97, 255);
+            @include md {
+              padding: 12px 15px;
+            }
             .text {
               font-family: "Paytone One";
               font-size: 1.5rem;
