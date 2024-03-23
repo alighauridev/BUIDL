@@ -30,7 +30,7 @@ const Banner = ({ timeline, ease }) => {
             <div className="banner-btn">
               <div className="btn-main">
                 <a target="_blank" href="#">
-                  <div>BUY ON NOW </div>
+                  <div>BUY NOW </div>
                 </a>
               </div>
               <div className="btn-main">
