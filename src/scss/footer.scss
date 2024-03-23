@@ -1,0 +1,104 @@
+@import "./variable.scss";
+@import "./media.scss";
+.footer_bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: radial-gradient(
+    circle farthest-side at 91% 54%,
+    rgba(21, 71, 207, 0.42),
+    #000 45%
+  ) !important;
+  background-size: 85%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.2; */
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+footer {
+  position: relative;
+  z-index: 12;
+  margin-top: 100px;
+  &::after {
+    // content: "";
+    position: absolute;
+    left: 0;
+    bottom: -102px;
+    background: url(http://localhost:3000/static/media/rock.440a4f1377ffccdac774.png)
+      no-repeat bottom center;
+    background-size: contain;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.2; */
+    filter: hue-rotate(227deg);
+    @include md {
+      background-size: 180%;
+    }
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .top {
+      display: grid;
+      gap: 1rem;
+      justify-content: center;
+      text-align: center;
+    }
+    .logo {
+      text-align: center;
+      max-width: 200px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+    .logo img {
+      width: 100%;
+    }
+    h2 {
+      font-size: 3.5rem;
+    }
+    p {
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+      max-width: 900px;
+      margin: 30px auto 0;
+    }
+    .icons {
+      display: flex;
+      gap: 27px;
+      justify-content: center;
+      margin-top: 15px;
+      a {
+        display: flex;
+        max-width: 60px;
+        img {
+          width: 100px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+.bottom {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  margin-top: 0px;
+  /* background: #116347; */
+  z-index: 12;
+  box-shadow: 0 0 1px #ffffff;
+
+  position: relative;
+}
