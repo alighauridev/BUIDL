@@ -39,7 +39,7 @@ function Tokenomics() {
                                             </div>
                                         </div>
                                         <div >
-                                            <div className="flex-1 p-5 border border-white bg-yellow text-center" style={{
+                                            <div className="flex-1 py-5 px-10 md:px-20 border border-white bg-yellow text-center" style={{
                                                 background: '#0345fb',
                                                 background: 'rgba( 255, 255, 255, 0.25 )',
                                                 boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
@@ -50,7 +50,7 @@ function Tokenomics() {
                                             }}>
                                                 <div className="md:text-4xl text-xl head">TOKEN ADDRESS</div>
                                                 <div className="md:text-xl text-xs md:mt-5 mt-2 break-all">
-                                                    11111111111111111111111</div>
+                                                    1111111111111111111111111111111111111111</div>
                                             </div>
                                         </div>
                                     </div>
