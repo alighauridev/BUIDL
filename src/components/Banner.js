@@ -42,7 +42,7 @@ const Banner = ({ timeline, ease }) => {
             </div>
             <div className="contract">
               <span ref={contractAddressRef}>
-                0x000000000000000000000000000000
+                11111111111111111111111
               </span>
               <button onClick={handleCopy}>COPY</button>
             </div>

@@ -50,7 +50,7 @@ function Tokenomics() {
                                             }}>
                                                 <div className="md:text-4xl text-xl head">TOKEN ADDRESS</div>
                                                 <div className="md:text-xl text-xs md:mt-5 mt-2 break-all">
-                                                    0x0000000000000000000000000000000000000000</div>
+                                                    11111111111111111111111</div>
                                             </div>
                                         </div>
                                     </div>
