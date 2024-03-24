@@ -11,7 +11,7 @@ import Partnered from "./components/Partnered";
 import Teams from "./components/Teams";
 import News from "./components/News";
 import Loader from "./components/Loader";
-
+import gif from "./assests//trim.D4810438-C4A7-42BE-8A8F-F8020FBC130B-ezgif.com-video-to-gif-converter.gif"
 // import bottom2 from "./components/companion-bg.2c17497b.jpg";
 function App() {
   let [loading, setLoading] = useState(true);
@@ -36,6 +36,14 @@ function App() {
               <Tokenomics />
               {/* <Info /> */}
               {/* <Teams /> */}
+              <div className="big_gif">
+                <div className="con">
+                  <div className="img">
+                    <img src={gif} alt="" />
+                  </div>
+                </div>
+
+              </div>
               <News />
               <div className="footer_bg" style={{ position: 'relative' }}>
                 <Partnered />

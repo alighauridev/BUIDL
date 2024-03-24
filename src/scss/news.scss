@@ -125,3 +125,17 @@
 .swiper-slide {
   max-width: 550px;
 }
+
+.con {
+  max-width: 800px;
+  overflow: hidden;
+  margin: 100px auto;
+  padding: 20px;
+  .img {
+    overflow: hidden;
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+}
