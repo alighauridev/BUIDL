@@ -9,6 +9,8 @@ import partner4 from "../assests/images/yt/media-20.svg"
 import partner5 from "../assests/images/yt/media-21.svg"
 import partner6 from "../assests/images/yt/media-7.svg"
 import partner7 from "../assests/images/yt/media-9.svg"
+import img3 from "../assests/blackrock-tokenized-fund-buidl.jpg"
+
 export const nav = [
 
 
@@ -23,14 +25,70 @@ export const nav = [
     ref: "nav4",
   },
   {
+    name: "News",
+    path: "#news",
+    ref: "nav4",
+  },
+  {
     name: "Contact",
-    path: "#foooter",
+    path: "#contact",
     ref: "nav4",
   },
 
 
 ];
+export const newsdt = [
+  {
+    title: 'BlackRock tokenizes money market fund on Ethereum. Invests in Securitize',
+    info: 'Last night BlackRock elaborated on its plans for its first digital fund on the Ethereum blockchain, the BlackRock USD Institutional Digital Liquidity Fund (BUIDL), a money market fund that aims to offer a stable $1 value. It also confirmed it invested in tokenization partner Securitize, which is acting as transfer agent, tokenization platform and placement agent.',
+    img: 'https://www.ledgerinsights.com/wp-content/uploads/2024/03/blackrock.3-810x524.jpg',
+    link: 'https://www.ledgerinsights.com/blackrock-tokenization-money-market-fund-invests-in-securitize/'
+  },
+  {
+    title: 'BlackRock Enters Asset Tokenization Race With New Fund on the Ethereum Network',
+    info: 'The asset management giant also made a strategic investment in asset tokenization company Securitize.',
+    img: 'https://www.coindesk.com/resizer/WDd-h6o_7QnBQ4MQy11DCwv9aww=/arc-photo-coindesk/arc2-prod/public/CJHBVQZDPNFZNA4SF7HHQ22QBU.jpg',
+    link: 'https://www.coindesk.com/markets/2024/03/20/blackrock-enters-asset-tokenization-race-with-new-fund-on-the-ethereum-network/'
+  },
+  {
+    title: 'BlackRock debuts BUIDL, its first tokenized fund on Ethereum',
+    info: 'Global investment manager BlackRock announced on Wednesday the launch of its first tokenized fund powered by the Ethereum blockchain. The BlackRock USD Institutional Digital Liquidity Fund, also known as BUIDL, is designed to offer qualified investors a new way to earn US dollar yields through subscriptions via Securitize Markets, LLC.',
+    img: 'https://static.cryptobriefing.com/wp-content/uploads/2024/03/21112802/BlackRock-Buidl-tokenized-fund-800x457.webp',
+    link: 'https://cryptobriefing.com/blackrock-buidl-tokenized-fund-ethereum/'
+  },
+  {
+    title: 'BlackRock Introduces BUIDL: A Tokenized Fund on Ethereum',
+    info: 'BlackRock launches its first tokenized fund, BUIDL, on the Ethereum network, offering qualified investors the opportunity to earn U.S. dollar yields',
+    img: 'https://blockonomi.com/wp-content/uploads/2023/11/blackrock-1200x800.jpg',
+    link: 'https://blockonomi.com/blackrock-introduces-buidl-a-tokenized-fund-on-ethereum/'
+  },
 
+  {
+    title: 'BlackRock Launches Tokenized Fund BUIDL, Strengthening Its Entry into Digital Asset Space ',
+    info: 'The tokenized fund, tagged the BlackRock USD Institutional Digital Liquidity Fund (BUIDL), is a major step in the evolution of digital assets and their integration into traditional finance.',
+    img: img3,
+    link: 'https://www.coinspeaker.com/blackrock-tokenized-fund-buidl/'
+  },
+  {
+    title: 'BlackRock launches BUIDL fund for digital yield',
+    info: 'BlackRock, the world’s largest asset manager, has partnered with cryptocurrency exchange Coinbase to launch the BlackRock USD Institutional Digital Liquidity Fund (BUIDL), a blockchain-based investment fund designed to offer U.S. dollar yields through tokenization.',
+    img: 'https://s.yimg.com/ny/api/res/1.2/Xz3R3GBS94DBXfToWuX5qg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/en/forkast_news_articles_672/01a3c9e765f3adfa2ad9847c6588481e',
+    link: 'https://finance.yahoo.com/news/blackrock-launches-buidl-fund-digital-191314438.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHRUVj2OlCfsEDyhNxWr9NTBpzP_vnuSYvWja-7I3VVOLHW2Jg9DNJQwMTayFXQT_LCcGzIuZJSjRZTkzLVNbxEFUe9Ou48gewY0KIKy8rOtEtemjRY_8ZS5KIxRG5XWPFC3k8uxoxaPrclGKYyIVu7_rHQ6uMQCsE9nEn8DaIYJ'
+  },
+  {
+    title: 'BlackRock is launching its first Ethereum-based tokenized fund',
+    info: "With this move, the world's largest asset management firm aims to bridge the gap between traditional markets and new technology",
+    img: 'https://i.kinja-img.com/image/upload/c_fit,q_60,w_1315/71574d4a3a0dcd89d9ba52ae6a14e105.jpg',
+    link: 'https://qz.com/blackrock-launches-first-tokenized-fund-on-ethereum-blo-1851355298'
+  },
+  {
+    title: 'BlackRock Introduces Tokenized Fund BUID',
+    info: 'BlackRock launches its first tokenized fund, the BlackRock USD Institutional Digital Liquidity Fund(BUIDL), accessible via Securitize Markets, LLC.Robert Mitchnick, BlackRock’s Digital Assets Head, said that the move aligns with the firm’s digital assets strategy, focusing on solving client challenges.',
+    img: 'https://www.cryptotimes.io/wp-content/uploads/2024/02/BlackRocks_Bitcoin_ETF_Inflows_Climb_to_Fifth-Highest_Among_All_ETFs_in_2024.jpg.avif',
+    link: 'https://www.cryptotimes.io/2024/03/21/blackrock-introduces-tokenized-fund-buidl/'
+  },
+
+]
 export const roadmap = [
   {
     id: "01",

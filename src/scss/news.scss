@@ -1,0 +1,123 @@
+@import "./variable.scss";
+@import "./media.scss";
+
+.news {
+  padding: 90px 0 150px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: radial-gradient(
+      circle farthest-side at 20% 58%,
+      rgba(21, 71, 207, 0.42),
+      #000 45%
+    ) !important;
+    background-size: 80%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.2; */
+    background-repeat: no-repeat;
+    @include md {
+      background-size: contain;
+    }
+  }
+  .roadmap-heading {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+    max-width: 800px;
+    width: 80%;
+    margin-bottom: 20px;
+    .wrap-heading {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      .heading {
+        margin: 0px 0px 0px 0px;
+        padding: 7px 19px 7px 20px;
+        background-color: #ffffff0d;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #ffffff0d;
+
+        border-radius: 100px 100px 100px 100px;
+        h6 {
+          font-size: 15px;
+          font-weight: 400;
+
+          line-height: 1.2em;
+        }
+      }
+    }
+
+    .road-h {
+      margin: 20px 0px 0px 0px;
+      padding: 0% 0% 0% 0%;
+      h2 {
+        line-height: 1.2em;
+        font-weight: 400;
+        font-size: 4rem !important;
+        text-align: center;
+      }
+    }
+  }
+
+  .container {
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px;
+    .grid {
+      //   grid-template-columns: 1fr 1fr;
+      //   grid-gap: 2rem;
+      .item {
+        border: 1px solid #1f1f1f;
+        padding: 30px 20px;
+        /* margin: 0px 0px 0px 0px; */
+        /* padding: 0px 0px 13px 0px; */
+        background-color: rgba(255, 255, 255, 0.04);
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: rgba(255, 255, 255, 0.1019607843);
+        border-radius: 20px;
+        overflow: hidden;
+        display: grid;
+        gap: 10px;
+        h3 {
+          font-size: 1.3rem;
+          font-weight: 700;
+          font-family: "Montserrat";
+          text-overflow: clip;
+          height: 56px;
+          overflow: hidden;
+        }
+        p {
+          color: rgb(255 255 255 / 60%);
+          margin-bottom: 10px;
+          height: 62px;
+          overflow: hidden;
+        }
+        .img {
+          border-radius: 20px;
+          overflow: hidden;
+          min-height: 250px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+.swiper-slide {
+  max-width: 550px;
+}

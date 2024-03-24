@@ -102,6 +102,7 @@ header {
                 z-index: auto;
                 color: white;
                 font-family: "Montserrat";
+                text-transform: capitalize;
 
                 @include md {
                   color: #fff;

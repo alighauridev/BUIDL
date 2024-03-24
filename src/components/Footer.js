@@ -5,7 +5,7 @@ import logo from "../assests/Blue Business Architecture Design Logo (1).png"
 const Footer = () => {
   return (
     <>
-      <footer id="foooter">
+      <footer id="contact">
         <div className="container">
           <div className="top">
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import logo from "../assests/banner-removebg-preview.png"
+import logo from "../assests/Blue Business Architecture Design Logo (1).png"
 import "../scss/loader.scss";
 import img1 from "../assests/3.png"
 const Loader = ({ setLoading }) => {
@@ -16,7 +16,7 @@ const Loader = ({ setLoading }) => {
         const diff = Math.random() * 80;
         return Math.min(oldProgress + diff, 100);
       });
-    }, 500);
+    }, 1000);
 
     return () => {
       clearInterval(timer);
@@ -25,7 +25,7 @@ const Loader = ({ setLoading }) => {
 
   return (
     <section className="loader">
-      <img src={img1} style={{ maxWidth: '300px' }} className="loader__logo" alt="" />
+      <img src={logo} style={{ maxWidth: '300px' }} className="loader__logo" alt="" />
 
     </section>
   );

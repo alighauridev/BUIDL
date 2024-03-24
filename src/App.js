@@ -9,7 +9,8 @@ import AboutNft from "./components/AboutNft";
 import Tokenomics from "./components/Tokenomics";
 import Partnered from "./components/Partnered";
 import Teams from "./components/Teams";
-
+import News from "./components/News";
+import Loader from "./components/Loader";
 
 // import bottom2 from "./components/companion-bg.2c17497b.jpg";
 function App() {
@@ -19,23 +20,33 @@ function App() {
 
   return (
     <>
-      <main>
-        <Banner />
+      {loading ? (
+        <Loader setLoading={setLoading} />
+      ) : (
+        <>
+          <main>
+            <main>
+              <Banner />
 
-        <AboutNft />
-        {/* <Join /> */}
-        {/* <Collection /> */}
+              <AboutNft />
+              {/* <Join /> */}
+              {/* <Collection /> */}
 
-        {/* <Roadmap /> */}
-        <Tokenomics />
-        {/* <Info /> */}
-        <Teams />
-        <div className="footer_bg" style={{ position: 'relative' }}>
-          <Partnered />
+              {/* <Roadmap /> */}
+              <Tokenomics />
+              {/* <Info /> */}
+              {/* <Teams /> */}
+              <News />
+              <div className="footer_bg" style={{ position: 'relative' }}>
+                <Partnered />
 
-          <Footer />
-        </div>
-      </main>
+                <Footer />
+              </div>
+            </main>
+          </main>
+        </>
+      )}
+
     </>
   );
 }

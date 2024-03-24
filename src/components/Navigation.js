@@ -131,21 +131,24 @@ const Navigation = ({ }) => {
             </li>
 
             <li>
-              <a href="#about">ABOUT</a>
+              <a href="#about">About</a>
             </li>
 
             <li>
-              <a href="#foooter">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li>
               <a href="#tokenomics">Tokenomics</a>
             </li>
+            <li>
+              <a href="#news">News</a>
+            </li>
 
           </ul>
         </nav>
-        <div className="cross">
+        {/* <div className="cross">
           <RxCross2 />
-        </div>
+        </div> */}
       </div>
 
       <div
