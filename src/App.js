@@ -12,6 +12,7 @@ import Teams from "./components/Teams";
 import News from "./components/News";
 import Loader from "./components/Loader";
 import gif from "./assests//trim.D4810438-C4A7-42BE-8A8F-F8020FBC130B-ezgif.com-video-to-gif-converter.gif"
+import video from "./assests/WhatsApp Video 2024-03-25 at 1.04.44 AM.mp4"
 // import bottom2 from "./components/companion-bg.2c17497b.jpg";
 function App() {
   let [loading, setLoading] = useState(true);
@@ -39,7 +40,8 @@ function App() {
               <div className="big_gif">
                 <div className="con">
                   <div className="img">
-                    <img src={gif} alt="" />
+                    <video src={video} muted autoPlay loop />
+                    {/* <img src={gif} alt="" /> */}
                   </div>
                 </div>
 
