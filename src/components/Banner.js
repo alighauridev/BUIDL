@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../scss/banner.scss";
 import Navigation from "./Navigation";
-import img1 from "../assests/Blue Business Architecture Design Logo.png"
+import img1 from "../assests/Logo3.png"
 const Banner = ({ timeline, ease }) => {
   const contractAddressRef = useRef(null);
 

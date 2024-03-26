@@ -9,7 +9,7 @@ import { BsChevronUp } from "react-icons/bs";
 import { RxCross2 } from "react-icons/rx";
 // import { FaRedditAlien } from "react-icons/fa";
 import { HiOutlineBars3 } from "react-icons/hi2";
-import img1 from "../assests/Blue Business Architecture Design Logo (1).png"
+import img1 from "../assests/Logo3.png"
 const Navigation = ({ }) => {
   const [navToggler, setNavToggler] = useState(false);
   const [navColor, setNavColor] = useState(false);

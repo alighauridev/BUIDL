@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import logo from "../assests/Blue Business Architecture Design Logo (1).png"
+import logo from "../assests/Logo3.png"
 import "../scss/loader.scss";
 import img1 from "../assests/3.png"
 const Loader = ({ setLoading }) => {
