@@ -1,7 +1,7 @@
 import React from "react";
 import "../scss/footer.scss";
 import instagram from "../assests/instagram.png"
-import logo from "../assests/Logo3.png"
+import logo from "../assests/Logo3-newwht.png"
 const Footer = () => {
   return (
     <>
